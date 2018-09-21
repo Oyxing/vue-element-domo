@@ -23,6 +23,9 @@ import Upload from '@/components/upload'
 import Echarts from '@/components/echarts'
 import Highcharts from '@/components/highcharts'
 import Markd from '@/components/markdown/markd'
+import divDrag from '@/components/divDrag'
+import Scroll from '@/components/Scroll'
+
 Vue.use(Router)
 export default new Router({
   mode: 'history',
@@ -31,6 +34,15 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: Hello
+    },
+    {
+      path: '/scroll',
+      component: Scroll
+    },
+    ,
+    {
+      path: '/divdrag',
+      component: divDrag
     },
     {
       path: '/markd',

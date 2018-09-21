@@ -1,13 +1,13 @@
 <template>
   <div class="hello">
-   <el-table :data="datanet" :span-method="objectSpanMethod" border style="width: 100%; margin-top: 20px">
+   <!-- <el-table :data="datanet" :span-method="objectSpanMethod" border style="width: 100%; margin-top: 20px">
       <el-table-column prop="ip" label="IP" width="180">
       </el-table-column>
       <el-table-column prop="l" label="l值">
       </el-table-column>
       <el-table-column prop="m" label="m值">
       </el-table-column>
-    </el-table>
+    </el-table> -->
 
   <br>
   <br>
@@ -34,9 +34,62 @@
       <el-button @click="del(index)">index  {{index}}</el-button>
     </span>
     <el-button @click="jia">加</el-button><el-button @click="tijao">提交</el-button>
+
+    <el-select
+      v-model="value11"
+      multiple
+      collapse-tags
+      style="margin-left: 20px;"
+      placeholder="请选择">
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value">
+      </el-option>
+  </el-select>
+  <br>
+  <br>
+  <select name="aa" size="30" style="height:100px;">
+      <option value="0">1</option>
+      <option value="1">2</option>
+      <option value="2">3</option>
+      <option value="3">4</option>
+      <option value="4">5</option>
+      <option value="5">6</option>
+      <option value="6">7</option>
+      <option value="7">8</option>
+      <option value="8">9</option>
+      <option value="9">10</option>
+      <option value="10">11</option>
+  </select>
   </div>
 </template>
-
+<style>
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+    width: 5px;
+    height: 5px;
+    background-color: #F5F5F5;
+}
+ 
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+ 
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+</style>
 <script>
 import Byvalue from '@/components/Byvalue'
 import Model from '@/components/model'
@@ -46,6 +99,23 @@ export default {
   name: 'hello',
   data () {
     return {
+    options: [{
+          value: '选项1',
+          label: '黄金糕'
+        }, {
+          value: '选项2',
+          label: '双皮奶'
+        }, {
+          value: '选项3',
+          label: '蚵仔煎'
+        }, {
+          value: '选项4',
+          label: '龙须面'
+        }, {
+          value: '选项5',
+          label: '北京烤鸭'
+        }],
+      value11: '',
        a: {name:'asda',age:'sada'},
       loading:false,
       msg: 'Welcome to Your Vue.js App',
@@ -103,10 +173,6 @@ export default {
         ]
     }
   },
-  mounted(){
-  },
-  updated(){
-  },
   created(){
     // myfun(this)
   },
@@ -129,6 +195,7 @@ export default {
       // console.log(index)
     },
     tijao(){
+      console.log('tag', this.value11)
       // console.log(this.jiaval)
     },
     jia(){
@@ -138,6 +205,9 @@ export default {
         this.a.name = i++
     },
     loadedate(){
+      console.log('this父')
+      console.log(this)
+      this.byData="asdasd"
       this.loading = true
       setTimeout(()=>{
         this.loading = false

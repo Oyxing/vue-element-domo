@@ -28,7 +28,13 @@ import store from './vuex/index'
 /* eslint-disable no-new */
 import VueSocketio from 'vue-socket.io';
 import socketio from 'socket.io-client';
-
+// 滚动条
+import HappyScroll from 'vue-happy-scroll'
+// 引入css
+import 'vue-happy-scroll/docs/happy-scroll.css'
+Vue.use(HappyScroll)
+import EasyScroll from 'easyscroll';
+Vue.use(EasyScroll);
 // Vue.use(VueSocketio, socketio('http://10.1.1.171:8080/ws/join?uname=SADAS'));
 new Vue({
   el: '#app',

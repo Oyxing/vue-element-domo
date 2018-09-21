@@ -70,6 +70,12 @@
         <el-menu-item index="highcharts" target="_blank">
           <span>highcharts 画图</span>
         </el-menu-item>
+        <el-menu-item index="divdrag" target="_blank">
+          <span>拖拽</span>
+        </el-menu-item>
+         <el-menu-item index="scroll" target="_blank">
+          <span>滚动</span>
+        </el-menu-item>
        
         <i class="iconfont icon-my-gouwuche"></i>
         </el-menu>
