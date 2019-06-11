@@ -1,6 +1,10 @@
 <template>
   <div id="app">
       <el-menu theme="dark" router :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
+      
+      <el-menu-item index="/supermap" target="_blank">
+          <span>supermap</span>
+        </el-menu-item>
         <el-menu-item index="/" target="_blank">
           <span>栅格</span>
         </el-menu-item>
@@ -76,6 +80,9 @@
          <el-menu-item index="scroll" target="_blank">
           <span>滚动</span>
         </el-menu-item>
+        <el-menu-item index="ajax" target="_blank">
+          <span>ajax</span>
+        </el-menu-item>
        
         <i class="iconfont icon-my-gouwuche"></i>
         </el-menu>
@@ -86,6 +93,7 @@
 <script>
 import RFB from 'novnc-core'
 import Promise from 'promise'
+import { request } from 'http';
  
 export default {
   name: 'app',
@@ -96,7 +104,21 @@ export default {
       };
     },
     created(){
-      // this.Novnc()
+      // let Web3 = require('web3');
+      // let web3;
+      // if (typeof web3 !== 'undefined') {
+      //     web3 = new Web3(web3.currentProvider);
+      // } else {
+      //     // set the provider you want from Web3.providers
+      //     web3 = new Web3(new Web3.providers.HttpProvider("http://10.1.1.152:8545"));
+      // }
+      // if(!web3.currentProvider) {
+      //     web3.setProvider('http://10.1.1.152:8545');
+      // }
+      // console.log('web3')
+      // console.log(web3.eth)
+      // web3.eth.personal.newAccount('oyxing')
+      // .then(console.log);
     },
     methods: {
       handleSelect(key, keyPath) {

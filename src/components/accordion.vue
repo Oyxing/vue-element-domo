@@ -1,4 +1,5 @@
 <template>
+<div>
 <div class="aqccrdion">
     <div v-for="(item,index) in divmodel" :key="index">
         <span class="hi"  @click="aindex(index)">
@@ -10,6 +11,15 @@
         </div> 
     </div> 
 </div>
+
+<div class="tagsbox">
+    <div class="tags"><div class="tags-1"></div><div class="tags-2"></div></div>
+    <div class="tagsleft"></div>
+</div>
+
+
+</div>
+
 </template>
 <script>
 import Es6 from '@/components/es6'
@@ -51,6 +61,41 @@ export default{
 }    
 </script>
 <style lang="">
+    .tagsbox{
+        margin-left: 20px;
+    }
+    .tagsleft {
+        width: 0px;
+        height: 0px;
+        border-bottom: 25px solid transparent;
+        border-left: 25px solid transparent;
+        border-top: 25px solid #339933;
+    }
+    .tags{
+        width: 250px;
+        height: 50px;
+
+    }
+    .tags div{
+        float: left;
+    }
+    .tags-1{
+        width: 200px;
+        height: 50px;
+        background: #339933;
+    }
+
+    .tags-2{
+        width: 0px;
+        height: 0px;
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-left: 50px solid #339933;
+    }
+
+
+
+
     .aqccrdion{
         margin:10px auto;
         background:#f0f;

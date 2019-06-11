@@ -13,37 +13,36 @@ import VueAxios from 'vue-axios'
 import VueJsonp from 'vue-jsonp'
 import '@/assets/css/app.css'
 import VueParticles from 'vue-particles'
+import VueCesium from 'vue-cesium'
+// Vue-Cesium will load Cesium.js from `https://unpkg.com/cesium/Build/Cesium/Cesium.js`
+Vue.use(VueCesium)
 Vue.use(VueAxios, axios)
 Vue.use(ElementUi)
 Vue.use(VueJsonp)
 Vue.use(Highcharts)
 Vue.use(VueParticles)
 import RFB from 'novnc-core'
-Vue.prototype.$echarts = echarts 
+Vue.prototype.$echarts = echarts
+import store from './vuex/index'
 import { myfun } from '@/assets/js/index'
 import $ from 'jquery'
-import VueSocketIO from "vue-socket-io";
-import '../static/compatibility.js'
-import store from './vuex/index'
-/* eslint-disable no-new */
-import VueSocketio from 'vue-socket.io';
-import socketio from 'socket.io-client';
-// 滚动条
-import HappyScroll from 'vue-happy-scroll'
-// 引入css
-import 'vue-happy-scroll/docs/happy-scroll.css'
-Vue.use(HappyScroll)
 import EasyScroll from 'easyscroll';
+
+import VueSocketIO from "vue-socket-io";
+
+import VueSocketio from 'vue-socket.io';
+
+import socketio from 'socket.io-client';
 Vue.use(EasyScroll);
 // Vue.use(VueSocketio, socketio('http://10.1.1.171:8080/ws/join?uname=SADAS'));
 new Vue({
-  el: '#app',
-  router,
-  store,
-  $,
-  RFB,
-  //生成这个组件模板
-  template: '<App/>',
-  //定义组件
-  components: { App }
+    el: '#app',
+    router,
+    store,
+    $,
+    RFB,
+    //生成这个组件模板
+    template: '<App/>',
+    //定义组件
+    components: { App }
 })

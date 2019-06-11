@@ -94,6 +94,7 @@
 import Byvalue from '@/components/Byvalue'
 import Model from '@/components/model'
 import {myfun} from '@/assets/js/index'
+
 var i = 0
 export default {
   name: 'hello',

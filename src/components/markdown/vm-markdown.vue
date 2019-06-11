@@ -1,12 +1,12 @@
 <template>
   <div class="vm-markdown" :style="{width: width, height:height}">
-    <VmMarkdownMenu :bgMenu="themeValue.bgMenu" 
+    <!-- <VmMarkdownMenu :bgMenu="themeValue.bgMenu" 
                     :menuBorder="themeValue.menuBorder"
                     :menuColor="themeValue.menuColor"
                     :hoverColor="themeValue.hoverColor"
                     @textChange="updateHtmlString"
                   >
-    </VmMarkdownMenu>
+    </VmMarkdownMenu> -->
     <div class="content">
       <div class="vm-markdown-edit" :style="{backgroundColor: themeValue.bgLeft}">
         <textarea class="vm-markdown-content" v-model="markdString"></textarea>
@@ -125,13 +125,13 @@
   }
 </style>
 <script>
-import VmMarkdownMenu from './vm-markdown-menu.vue'
+// import VmMarkdownMenu from './vm-markdown-menu.vue'
 import marked from 'marked'
 import theme from './theme/theme.js'
 export default {
   name: 'VmMarkdown',
   components: {
-    VmMarkdownMenu,
+    // VmMarkdownMenu,
   },
   props:{
     theme:{
