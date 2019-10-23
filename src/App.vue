@@ -71,6 +71,9 @@
         <el-menu-item index="echarts" target="_blank">
           <span>echarts 画图</span>
         </el-menu-item>
+        <el-menu-item index="antv" target="_blank">
+          <span>antv 画图</span>
+        </el-menu-item>
         <el-menu-item index="highcharts" target="_blank">
           <span>highcharts 画图</span>
         </el-menu-item>
@@ -82,6 +85,12 @@
         </el-menu-item>
         <el-menu-item index="ajax" target="_blank">
           <span>ajax</span>
+        </el-menu-item>
+         <el-menu-item index="map" target="_blank">
+          <span>map</span>
+        </el-menu-item>   
+        <el-menu-item index="ueditor" target="_blank">
+          <span>ueditor</span>
         </el-menu-item>
        
         <i class="iconfont icon-my-gouwuche"></i>

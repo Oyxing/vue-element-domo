@@ -27,7 +27,10 @@ import divDrag from '@/components/divDrag'
 import Scroll from '@/components/Scroll'
 import Ajax from '@/components/Ajax'
 import Supermap from '@/components/Supermap'
-
+import map from '@/components/map'
+import Antv from '@/components/Antv'
+import Ueditor from '@/components/ueditor'
+import wxAccounts from '@/components/wxAccounts/seccessservice'
 Vue.use(Router)
 export default new Router({
     mode: 'history',
@@ -36,9 +39,17 @@ export default new Router({
             name: 'Hello',
             component: Hello
         }, {
+            path: '/wxaccounts',
+            name: 'wxAccounts',
+            component: wxAccounts
+        }, {
             path: '/supermap',
             name: 'Hello',
             component: Supermap
+        }, {
+            path: '/ueditor',
+            name: 'Hello',
+            component: Ueditor
         }, {
             path: '/ajax',
             name: 'ajax',
@@ -140,6 +151,12 @@ export default new Router({
         {
             path: '/socket',
             component: Socket
+        },{
+            path: '/map',
+            component: map
+        }, {
+            path: '/antv',
+            component: Antv
         },
         {
             path: '*',

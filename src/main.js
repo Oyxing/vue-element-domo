@@ -21,6 +21,8 @@ Vue.use(ElementUi)
 Vue.use(VueJsonp)
 Vue.use(Highcharts)
 Vue.use(VueParticles)
+ 
+
 import RFB from 'novnc-core'
 Vue.prototype.$echarts = echarts
 import store from './vuex/index'
