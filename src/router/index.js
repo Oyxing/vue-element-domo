@@ -29,8 +29,12 @@ import Ajax from '@/components/Ajax'
 import Supermap from '@/components/Supermap'
 import map from '@/components/map'
 import Antv from '@/components/Antv'
+import ShearImg from '@/components/shearImg'
 import Ueditor from '@/components/ueditor'
 import wxAccounts from '@/components/wxAccounts/seccessservice'
+import QuillEditor from '@/components/quillEditor'
+import Operation2 from '@/components/operation2'
+
 Vue.use(Router)
 export default new Router({
     mode: 'history',
@@ -38,10 +42,22 @@ export default new Router({
             path: '/',
             name: 'Hello',
             component: Hello
+        },{
+            path: '/operation2',
+            name: 'operation2',
+            component: Operation2
+        },{
+            path: '/quillEditor',
+            name: 'quillEditor',
+            component: QuillEditor
         }, {
             path: '/wxaccounts',
             name: 'wxAccounts',
             component: wxAccounts
+        },{
+            path: '/shearImg',
+            name: 'ShearImg',
+            component: ShearImg
         }, {
             path: '/supermap',
             name: 'Hello',

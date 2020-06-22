@@ -1,0 +1,332 @@
+{
+    "name": "秋意盎然",
+    "whether": "yes",
+    "background": "#016CB8",
+    "row": [
+        {
+            "webstyleid": "1ckvt1LqyDa6LQDUfLtOiZC9Z4p",
+            "rowname": "",
+            "rowclass": "row-one",
+            "rowsort": 1,
+            "rowbackground": true,
+            "rownumer": 0,
+            "line": [
+                {
+                    "webrowid": "1ckvt5XYS9x4gOsuTyInzhwGuqh",
+                    "linename": "网站头部",
+                    "lineclass": "line-one",
+                    "linenumber": 1,
+                    "linesort": 0,
+                    "linedirection": "across",
+                    "children": [
+                        {
+                            "weblineid": "1ckvsz3AE6uXKLeL3cA2GpxZiYe",
+                            "immobilization": "no",
+                            "name": "西部企业家协会",
+                            "sort": 0,
+                            "url": "/",
+                            "component": "indexCompany"
+                        },
+                        {
+                            "weblineid": "1ckvsz3AE6uXKLeL3cA2GpxZiYe",
+                            "immobilization": "no",
+                            "name": "登录注册",
+                            "sort": 1,
+                            "url": "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "webstyleid": "1ckvt1LqyDa6LQDUfLtOiZC9Z4p",
+            "rowname": "",
+            "rowclass": "row-two",
+            "rowsort":2,
+            "rowbackground": false,
+            "rownumer": 1,
+            "line": [
+                {
+                    "webrowid": "1ckvt2lh8ar8x7c2ROz3EBhDruL",
+                    "linename": "网站LOGO",
+                    "lineclass": "line-two-logo",
+                    "linenumber": 1,
+                    "linesort": 0,
+                    "linedirection": "across",
+                    "children": [
+                        {
+                            "weblineid": "1ckvt3w2PpROgjYJaMR935c3RDP",
+                            "immobilization": "no",
+                            "name": "LOGO",
+                            "sort": 0,
+                            "url": "",
+                            "component": "indexLogo"
+                        }
+                    ]
+                },
+                {
+                    "webrowid": "1ckvt2lh8ar8x7c2ROz3EBhDruL",
+                    "linename": "网站导航",
+                    "lineclass": "line-two-nav",
+                    "linenumber": 6,
+                    "linesort": 1,
+                    "linedirection": "across",
+                    "children": [
+                        {
+                            "weblineid": "1ckvt2cO0SGudeq9jCwfIcSnWIE",
+                            "immobilization": "no",
+                            "name": "导航",
+                            "sort": 0,
+                            "url": "[{\"name\":\"关于协会\",\"value\":\"/navItem/aboutUs\",\"disabled\":false},{\"name\":\"活动图集\",\"value\":\"/navItem/activityImages\",\"disabled\":false},{\"name\":\"服务中心\",\"value\":\"/navItem/serveCenter\",\"disabled\":false},{\"name\":\"会员风采\",\"value\":\"/navItem/memberDemeanour\",\"disabled\":false},{\"name\":\"协会领导\",\"value\":\"/navItem/leadership\",\"disabled\":false},{\"name\":\"协会动态\",\"value\":\"/navItem/dynamic\",\"disabled\":false},{\"name\":\"入会申请\",\"value\":\"/navItem/applyFor\",\"disabled\":false}]",
+                            "component": "indexNav"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "webstyleid": "1ckvt1LqyDa6LQDUfLtOiZC9Z4p",
+            "rowname": "",
+            "rowclass": "row-three",
+            "rowsort":3,
+            "rowbackground": false,
+            "rownumer": 2,
+            "line": [
+                {
+                    "webrowid": "1ckvsyisafHdTpZnteNUsqwUzxc",
+                    "linename": "轮播图",
+                    "lineclass": "line-three-swiper",
+                    "linenumber": 1,
+                    "linesort": 0,
+                    "linedirection": "across",
+                    "children": [
+                        {
+                            "weblineid": "1ckvt4qBU9N9TSKciovJPyUMsnv",
+                            "immobilization": "no",
+                            "name": "轮播图",
+                            "sort": 0,
+                            "url": "zong",
+                            "component": "indexSwiper"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "webstyleid": "1ckvt1LqyDa6LQDUfLtOiZC9Z4p",
+            "rowname": "",
+            "rowclass": "row-four",
+            "rowsort": 4,
+            "rowbackground": false,
+            "rownumer":3,
+            "line": [
+                {
+                    "webrowid": "1ckvt0FRV2P4wUZ06nmtGJy1tIh",
+                    "linename": "1号新闻模块",
+                    "lineclass": "line-four-one",
+                    "linenumber":3,
+                    "linesort": 0,
+                    "linedirection": "across",
+                    "children": [
+                        {
+                            "weblineid": "1ckvszsroRlSBCDSZbX6zqYcWM4",
+                            "immobilization": "yes",
+                            "name": "企业走访",
+                            "sort": 0,
+                            "url": "{\"name\":\"企业走访\",\"url\":\"E1pwCZU5Vq249Ja0xxNRQbelE\"}",
+                            "component": "five"
+                        }
+                    ]
+                },
+                {
+                    "webrowid": "1ckvt0FRV2P4wUZ06nmtGJy1tIh",
+                    "linename": "2号新闻模块",
+                    "lineclass": "line-four-two",
+                    "linenumber": 1,
+                    "linesort": 1,
+                    "linedirection": "across",
+                    "children": [
+                        {
+                            "weblineid": "1ckvt5yOszctLm9Xab6mPtfQBBU",
+                            "immobilization": "yes",
+                            "name": "党支部专栏",
+                            "sort": 0,
+                            "url": "{\"name\":\"党支部专栏\",\"url\":\"YlTItBNq22Dr5HGUbl5Nb9Ykv\"}",
+                            "component": "four"
+                        }
+                    ]
+                },
+                {
+                    "webrowid": "1ckvt0FRV2P4wUZ06nmtGJy1tIh",
+                    "linename": "3号新闻模块",
+                    "lineclass": "line-four-three",
+                    "linenumber": 1,
+                    "linesort":2,
+                    "linedirection": "across",
+                    "children": [
+                        {
+                            "weblineid": "1ckvt1QmvVBUlqWIpmV8q9x8VjL",
+                            "immobilization": "no",
+                            "name": "快捷方式",
+                            "sort": 0,
+                            "url": "{\"name\":\"协会新闻\",\"url\":\"/007\"}",
+                            "component": "indexKuaijie"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "webstyleid": "1ckvt1LqyDa6LQDUfLtOiZC9Z4p",
+            "rowname": "",
+            "rowclass": "row-five",
+            "rowsort": 5,
+            "rowbackground": false,
+            "rownumer": 4,
+            "line": [
+                {
+                    "webrowid": "1ckvt1eExZtYZqkmDsbBSvwRXo4",
+                    "linename": "分隔线 -> 名称",
+                    "lineclass": "line-five-fenge",
+                    "linenumber": 1,
+                    "linesort": 0,
+                    "linedirection": "across",
+                    "children": [
+                        {
+                            "weblineid": "1ckvt1iXpUlltGfRf7T5NoESl8p",
+                            "immobilization": "no",
+                            "name": "现在注册，即可为您提供最佳上云实践机会",
+                            "sort": 0,
+                            "url": "/static/upload/userPath/微信图片_20200606085903.jpg",
+                            "component": "indexFenge"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "webstyleid": "1ckvt1LqyDa6LQDUfLtOiZC9Z4p",
+            "rowname": "",
+            "rowclass": "row-six",
+            "rowsort": 6,
+            "rowbackground": false,
+            "rownumer": 5,
+            "line": [
+                {
+                    "webrowid": "1ckvt33yvBeAg3bZ5l6cCTLPDLf",
+                    "linename": "新闻2号第1列",
+                    "lineclass": "line-six-left",
+                    "linenumber":3,
+                    "linesort": 0,
+                    "linedirection": "endlong",
+                    "children": [
+                        {
+                            "weblineid": "1ckvt6K5AjqDT9gY0qFMel5ORfc",
+                            "immobilization": "yes",
+                            "name": "通知公告",
+                            "sort": 0,
+                            "url": "{\"name\":\"通知公告\",\"url\":\"5WEqwSfkQxGjdYBmZpr3gr6Gm\"}",
+                            "component": "three"
+                        },
+                        {
+                            "weblineid": "1ckvt6K5AjqDT9gY0qFMel5ORfc",
+                            "immobilization": "yes",
+                            "name": "长安商学院",
+                            "sort": 1,
+                            "url": "{\"name\":\"长安商学院\",\"url\":\"sgbfKg7QM4atlcjCXNLiPJGL2\"}",
+                            "component": "one"
+                        },
+                        {
+                            "weblineid": "1ckvt6K5AjqDT9gY0qFMel5ORfc",
+                            "immobilization": "yes",
+                            "name": "资源对接会",
+                            "sort": 2,
+                            "url": "{\"name\":\"资源对接会\",\"url\":\"MVR6ziNvrEtwvhspyuGvL4FNq\"}",
+                            "component": "six"
+                        }
+                    ]
+                },
+                {
+                    "webrowid": "1ckvt33yvBeAg3bZ5l6cCTLPDLf",
+                    "linename": "新闻2号第2列",
+                    "lineclass": "line-six-right",
+                    "linenumber":3,
+                    "linesort": 1,
+                    "linedirection": "endlong",
+                    "children": [
+                        {
+                            "weblineid": "1ckvt9PAtbSo9dzh9KcyBpctHBy",
+                            "immobilization": "yes",
+                            "name": "协会新闻",
+                            "sort": 1,
+                            "url": "{\"name\":\"协会新闻\",\"url\":\"kNq09zx5JhEpRBrruXSJezuqN\"}",
+                            "component": "two"
+                        },
+                        {
+                            "weblineid": "1ckvt9PAtbSo9dzh9KcyBpctHBy",
+                            "immobilization": "yes",
+                            "name": "活动风采",
+                            "sort": 2,
+                            "url": "{\"name\":\"活动风采\",\"url\":\"j19KolA4M3MwMOk1GM86J6WHB\"}",
+                            "component": "seven"
+                        },
+                        {
+                            "weblineid": "1ckvt9PAtbSo9dzh9KcyBpctHBy",
+                            "immobilization": "no",
+                            "name": "热门产品",
+                            "sort": 3,
+                            "url": "{\"name\":\"热门产品\",\"url\":\"/008\"}",
+                            "component": "indexShopping"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "webstyleid": "1ckvt1LqyDa6LQDUfLtOiZC9Z4p",
+            "rowname": "",
+            "rowclass": "row-seven",
+            "rowsort": 7,
+            "rowbackground": true,
+            "rownumer": 6,
+            "line": [
+                {
+                    "webrowid": "1ckvt7JE3Ec4wufimYWU6ubIt9o",
+                    "linename": "title",
+                    "lineclass": "line-seven-top",
+                    "linenumber": 1,
+                    "linesort": 0,
+                    "linedirection": "across",
+                    "children": [
+                        {
+                            "weblineid": "1ckvt82epWtnvFKUeySf70auOEs",
+                            "immobilization": "no",
+                            "name": "友情链接",
+                            "sort": 0,
+                            "url": "[{\"name\":\"百度\",\"url\":\"www.baidu.com\"},{\"name\":\"华为海思\",\"url\":\"www.haisi.com\"},{\"name\":\"花瓣网\",\"url\":\"www.huaban.com\"},{\"name\":\"中糖集团\",\"url\":\"www.zhongtang.net\"},{\"name\":\"JD\",\"url\":\"www.jd.com\"},{\"name\":\"大时代\",\"url\":\"www.dashijdai.com\"},{\"name\":\"中光云计算\",\"url\":\"www.10isp.com\"},{\"name\":\"哔哩哔哩\",\"url\":\"www.bilibili.com\"}]",
+                            "component": "indexUrl"
+                        }
+                    ]
+                },
+                {
+                    "webrowid": "1ckvt7JE3Ec4wufimYWU6ubIt9o",
+                    "linename": "content",
+                    "lineclass": "line-seven-bottom",
+                    "linenumber": 5,
+                    "linesort": 1,
+                    "linedirection": "across",
+                    "children": [
+                        {
+                            "weblineid": "1ckvt9JfLF2FWhuwE1tfUCanY9t",
+                            "immobilization": "no",
+                            "name": "Copyright © 2011-2020 10isp.com. All Rights Reserved. 中光电信 版权所有　陕西中光电信高科技有限公司　陕ICP备09019267号-10",
+                            "sort": 0,
+                            "url": "",
+                            "component": "indexBanquan"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

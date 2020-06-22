@@ -8,7 +8,7 @@
       <el-table-column prop="m" label="m值">
       </el-table-column>
     </el-table> -->
-
+  <wxlogin appid="wx7aa4851a39b7c99a" scope="6253ec2a794c23b9ba2e7a9fe95e5bf9" redirect_uri="redirect_uri"></wxlogin>
   <br>
   <br>
   <br>
@@ -94,7 +94,7 @@
 import Byvalue from '@/components/Byvalue'
 import Model from '@/components/model'
 import {myfun} from '@/assets/js/index'
-
+import wxlogin from 'vue-wxlogin';
 var i = 0
 export default {
   name: 'hello',
@@ -174,6 +174,7 @@ export default {
         ]
     }
   },
+
   created(){
     // myfun(this)
   },
@@ -223,8 +224,9 @@ export default {
     },
      
   },
-  
+   
   components:{
+        wxlogin,
     byvalue:Byvalue,
     model:Model
   },

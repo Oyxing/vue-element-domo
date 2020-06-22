@@ -2,7 +2,11 @@
   <div id="app">
       <el-menu theme="dark" router :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
       
-      <el-menu-item index="/supermap" target="_blank">
+
+        <el-menu-item index="operation2" target="_blank">
+          <span> 作业 2  </span>
+        </el-menu-item>
+        <el-menu-item index="/supermap" target="_blank">
           <span>supermap</span>
         </el-menu-item>
         <el-menu-item index="/" target="_blank">
@@ -89,12 +93,19 @@
          <el-menu-item index="map" target="_blank">
           <span>map</span>
         </el-menu-item>   
+        <el-menu-item index="shearImg" target="_blank">
+          <span>vueCropper 图片 截取上传</span>
+        </el-menu-item>
         <el-menu-item index="ueditor" target="_blank">
           <span>ueditor</span>
         </el-menu-item>
-       
+       <el-menu-item index="quillEditor" target="_blank">
+          <span>quillEditor  文档  </span>
+        </el-menu-item>
+
         <i class="iconfont icon-my-gouwuche"></i>
         </el-menu>
+        <router-link to="quillEditor">aaaa</router-link>
     <router-view></router-view>
   </div>
 </template>

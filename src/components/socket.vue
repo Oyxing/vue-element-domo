@@ -116,9 +116,9 @@ export default{
 
             };
         },
-        clickButton: function(){
+        clickButton(){
             var self = this;
-            this.Socket = new WebSocket('ws://localhost:8095/ws/inform');
+            this.Socket = new WebSocket('ws://localhost:9051/ws/inform');
             // this.Socket = new WebSocket('ws://10.1.1.120:8083//api/Websocke');
             this.Socket.onopen = function() {
                 // Web Socket 已连接上，使用 send() 方法发送数据

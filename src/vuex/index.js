@@ -5,6 +5,11 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
     state: {
+        metaInfo:{
+            title:'aaaaatitle',
+            keywords:'asdasdakeywords',
+            description:'descriptionasdasdaaad'
+        },
         connect: false,
         message: null,
         chate:{
