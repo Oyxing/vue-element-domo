@@ -17,7 +17,7 @@
         "@antv/g2": "^3.5.8-beta.1",
         "@supermap/iclient-openlayers": "^9.1.1",
         "alloycrop": "^1.0.6",
-        "axios": "^0.16.2",
+        "axios": "^0.18.1",
         "babel-polyfill": "^6.26.0",
         "cesium": "^1.56.1",
         "easyscroll": "^1.0.1",
