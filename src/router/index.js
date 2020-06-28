@@ -34,6 +34,7 @@ import Ueditor from '@/components/ueditor'
 import wxAccounts from '@/components/wxAccounts/seccessservice'
 import QuillEditor from '@/components/quillEditor'
 import Operation2 from '@/components/operation2'
+import ComponentIndex from '@/components/component/index'
 
 Vue.use(Router)
 export default new Router({
@@ -46,6 +47,10 @@ export default new Router({
             path: '/operation2',
             name: 'operation2',
             component: Operation2
+        },{
+            path: '/componentindex',
+            name: 'componentindex',
+            component: ComponentIndex
         },{
             path: '/quillEditor',
             name: 'quillEditor',

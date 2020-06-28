@@ -3,6 +3,9 @@
       <el-menu theme="dark" router :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
       
 
+        <el-menu-item index="componentindex" target="_blank">
+          <span>componentindex  </span>
+        </el-menu-item>
         <el-menu-item index="operation2" target="_blank">
           <span> 作业 2  </span>
         </el-menu-item>
